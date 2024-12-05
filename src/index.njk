@@ -6,25 +6,18 @@
 
 {% block content %}
 <div class="container">
-  <h1>Johan's Likes & Dislikes</h1>
-  <p>I'm a senior journalism major at the University of Texas at Austin. I'm a very opinionated person. So, I will like to share some of my like and dislikes with whoever reads this. Let me know through the "Contact Me" form if you agree with my opinions or not :)</p>
-  <h2>Likes Loop</h2>
-  <p>This loops through data that came from a Google sheet example.</p>
+  <h1>Johan's Top 5 Vacation Spots</h1>
+  <p></p>
+  <h2>Locations</h2>
+  <p>In my opinions, there are the most beautiful places I've gone to.</p>
   <div class="row">
-    {% for book in library.books %}
+    {% for vacation in cities.cities %}
       <div class="col">
-        <img src="img/{{ book.slug }}.jpg" alt="" class="img-fluid">
-        <h3><a href="books/{{ book.slug }}.html">{{ book.title }}</a></h3>
+        <img src="img/{{ vacation.img }}" alt="{{ vacation.Name }}" class="img-fluid">
+        <h3><a href="cities/{{ vacation.slug }}.html">{{ vacation.Name }}</a></h3>
+        <p>{{ vacation.State }} | Population: {{ vacation.Population }}</p>
       </div>
     {% endfor %}
   </div>
-  <h2>Bookstores loop</h2>
-  <p>This loops through data that came from a Google Sheet example.</p>
-  <hr>
-  {% for store in bookstores.stores %}
-    <h3><a href="{{ store.url }}" target="_blank">{{ store.name }}</a></h3>
-    <p>{{ store.address}}, {{ store.city }}, {{ store.state }} {{ store.zip }}</p>
-    <hr>
-  {% endfor %}
 </div>
 {% endblock %}

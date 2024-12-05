@@ -1,19 +1,39 @@
 {
-  "Capitols": [
+  "cities": [
     {
-      "Name": "Austin",
-      "Population": 1000000,
-      "State": "Texas"
+      "Name": "Paris",
+      "State": "France",
+      "Population": 2103000,
+      "slug": "paris",
+      "img": "paris.jpg"
     },
     {
-      "Name": "Santa Fe",
-      "Population": 30000,
-      "State": "New Mexico"
+      "Name": "Rome",
+      "State": "Itaty",
+      "Population": 2760000,
+      "slug": "rome",
+      "img": "rome.jpg"
     },
     {
-      "Name": "Baton Rouge",
-      "Population": 240000,
-      "State": "Lousiana"
+      "Name": "Zurich",
+      "State": "Switzerland ",
+      "Population": 423193,
+      "slug": "zurich",
+      "img": "zurich.jpg"
+    },
+    {
+      "Name": "San Maurizio d'Opaglio",
+      "State": "Italy ",
+      "Population": 984386,
+      "slug": "san maurizio d'opaglio",
+      "img": "san maurizio d'opaglio.jpg"
+    },
+    {
+      "Name": "Madrid",
+      "State": "Spain",
+      "Population": 3277000,
+      "slug": "madrid",
+      "img": "madrid.jpg"
     }
   ]
 }
