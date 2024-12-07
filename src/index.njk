@@ -13,7 +13,7 @@
   <div class="row">
     {% for vacation in cities.cities %}
       <div class="col">
-        <img src="img/{{ vacation.img }}" alt="{{ vacation.Name }}" class="img-fluid">
+        <img src="img/{{ vacation.img }}" alt=" Photo of {{ vacation.Name }}" class="img-fluid">
         <h3><a href="cities/{{ vacation.slug }}.html">{{ vacation.Name }}</a></h3>
         <p>{{ vacation.State }} | Population: {{ vacation.Population }}</p>
       </div>
