@@ -6,16 +6,15 @@
 
 {% block content %}
 <div class="container">
-  <h1>Johan's Top 5 Vacation Spots</h1>
+  <h1>Johan's Favorite Vacation Spots</h1>
   <p></p>
-  <h2>Locations</h2>
-  <p>In my opinions, there are the most beautiful places I've gone to.</p>
+  <p>When I was 16 years old, I went on a trip around Europe. My mother and I visited four different countries: Italy, Switzerland, France, and Spain. The list below is in no particular order, but these cities are my favorite locations from the trip. All of these photos showcased were taken by me.</p>
   <div class="row">
     {% for vacation in cities.cities %}
-      <div class="col">
+      <div class="col-sm-2">
         <img src="img/{{ vacation.img }}" alt=" Photo of {{ vacation.Name }}" class="img-fluid">
         <h3><a href="cities/{{ vacation.slug }}.html">{{ vacation.Name }}</a></h3>
-        <p>{{ vacation.State }} | Population: {{ vacation.Population }}</p>
+        <p>{{ vacation.Country }} | Population: {{ vacation.Population }}</p>
       </div>
     {% endfor %}
   </div>

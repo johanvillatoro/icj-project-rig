@@ -2,43 +2,43 @@
   "cities": [
     {
       "Name": "Paris",
-      "State": "France",
+      "Country": "France",
       "Population": 2103000,
       "slug": "paris",
       "img": "paris.jpg",
-      "blurb": "Paris is an incredible vacation destination because it effortlessly combines rich history, stunning architecture, and a vibrant cultural scene. From iconic landmarks like the Eiffel Tower and the Louvre to charming cobblestone streets lined with quaint cafés, every corner of the city feels like a postcard. The cuisine is unparalleled, offering everything from fresh-baked croissants to Michelin-starred dining experiences. Art and romance fill the air, with world-class museums, captivating performances, and scenic walks along the Seine River. Whether you're exploring chic boutiques or enjoying a picnic under the Eiffel Tower, Paris promises unforgettable moments at every turn."
+      "blurb": "Paris was an incredible vacation destination because it has such a rich history, stunning architecture, and a vibrant cultural scene. Of course, we visited the Eiffel Tower and the Louvre. I love art, and what better place to be than France? I got to see the Mona Lisa painting, the Venus de Milo statue, and various well-known Renaissance artworks. Every corner of the city felt like a postcard. The cuisine was unparalleled—we tried everything from fresh-baked croissants to Michelin-starred dining experiences. We also rode a boat down the Seine River and saw a show at the amazing Moulin Rouge. Why did they let me inside? I don’t know; European age laws are crazy, but Paris delivered unforgettable moments at every turn."
     },
     {
       "Name": "San Maurizio d'Opaglio",
-      "State": "Italy ",
+      "Country": "Italy ",
       "Population": 984386,
       "slug": "san maurizio d'opaglio",
       "img": "san maurizio d'opaglio.jpg",
-      "blurb": "San Maurizio d'Opaglio is a hidden gem in northern Italy, perfect for those seeking tranquility and authentic local experiences. Situated near Lake Orta, it offers breathtaking views, serene waterfront walks, and a peaceful escape from crowded tourist hotspots. Known for its artisanal craftsmanship and connection to nature, the town exudes a warm and welcoming atmosphere. Visitors can explore charming villages nearby, indulge in fresh Italian cuisine, or simply relax in the stunning natural surroundings, making it an idyllic retreat."
+      "blurb": "San Maurizio d'Opaglio is a hidden gem in northern Italy. Being there felt so tranquil. It is situated near Lake Orta and it offers breathtaking views. It was a lovely and peaceful escape from crowded tourist hotspots. San Maurizio d'Opaglio is known for its artisanal craftsmanship and connection to nature as you can see from the photo. The town felt warm and welcoming. We were able to explore the location and indulge in local fresh Italian cuisine."
     },
     {
       "Name": "Rome",
-      "State": "Itaty",
+      "Country": "Itaty",
       "Population": 2760000,
       "slug": "rome",
       "img": "rome.jpg",
-      "blurb": "Rome is a dream destination for history and architecture lovers, offering a journey through time unlike any other city. From the awe-inspiring Colosseum and Roman Forum to the breathtaking Sistine Chapel in Vatican City, every step reveals layers of ancient history and artistic mastery. Its charming piazzas, vibrant street life, and delicious Italian cuisine create an atmosphere that's both lively and deeply romantic. Whether tossing a coin into the Trevi Fountain or indulging in authentic gelato by the Pantheon, Rome enchants travelers with its timeless beauty and cultural richness."
+      "blurb": "Rome was one of the locations where I felt starstruck. It felt like I was stepping into a living museum. It offers a journey through time unlike any other city. From the Colosseum and Roman Forum, where you can see the echoes of ancient civilizations, to the Sistine Chapel in Vatican City, every corner of Rome told a story. One of my favorite moments was walking through the streets because it was a mix of vibrant modern life and centuries-old locations. Tossing a coin into the Trevi Fountain was a must. The city's timeless beauty, cultural richness, and warm, welcoming spirit make it a place I’ll always want to revisit."
     },
     {
       "Name": "Zurich",
-      "State": "Switzerland ",
+      "Country": "Switzerland ",
       "Population": 423193,
       "slug": "zurich",
       "img": "zurich.jpg",
-      "blurb": "Zurich is a captivating blend of natural beauty and cosmopolitan charm, making it a fantastic vacation spot. Nestled along the serene shores of Lake Zurich and surrounded by snow-capped mountains, the city offers a picturesque backdrop for both relaxation and adventure. Its bustling old town boasts medieval streets, historic churches like the Grossmünster, and an eclectic mix of shops and cafés. With world-class museums, an innovative culinary scene, and opportunities for outdoor activities like hiking and boating, Zurich effortlessly combines modern sophistication with timeless Swiss charm."
+      "blurb": "Zurich is nestled in the heart of Switzerland. This city offers a harmonious blend of natural beauty and modern elegance. The city is near the shores of Lake Zurich which provides breathtaking views of crystal-clear waters. Strolling along the lake's promenade, you can see the sailboats drift by and swans glide across the water. Landmarks like the Grossmünster and Fraumünster churches not only showcase the beautiful architecture, but also tell stories of Zurich's rich past. The public transportation system is efficient and eco-friendly, making it easy to explore the city and its surroundings without a car."
     },
     {
       "Name": "Madrid",
-      "State": "Spain",
+      "Country": "Spain",
       "Population": 3277000,
       "slug": "madrid",
       "img": "madrid.jpg",
-      "blurb": "Madrid is a vibrant city that pulses with energy, art, and life. Spain's capital is a paradise for culture enthusiasts, with world-renowned museums like the Prado and the Reina Sofía housing masterpieces by Goya and Picasso. Its lively neighborhoods, such as Malasaña and La Latina, are filled with tapas bars, trendy boutiques, and bustling plazas. From the grandeur of the Royal Palace to the lush greenery of Retiro Park, Madrid blends history and modernity seamlessly. The city’s late-night spirit, delicious cuisine, and welcoming people make it an unforgettable destination."
+      "blurb": "Madrid was our last destination before returning home. We weren’t able to do much here since we only had a few hours until our departure, but we still got to experience some of what Madrid has to offer, like the Reina Sofía Museum, which houses art by Picasso. One of my favorite locations was the Santiago Bernabéu Stadium, where Real Madrid plays. They have been my childhood soccer team, and one day, I hope to go back and see a Real Madrid home game there."
     }
   ]
 }
