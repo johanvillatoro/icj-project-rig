@@ -7,10 +7,10 @@
 {% block content %}
 <div class="container">
   <h1>Johan's Favorite Vacation Spots</h1>
-  <p>When I was 16 years old, I went on a trip around Europe. My mother and I visited four different countries: Italy, Switzerland, France, and Spain. The list below is in no particular order, but these cities are my favorite locations from the trip. All of these photos showcased were taken by me.</p>
+  <p>When I was 16 years old, I went on a trip around Europe. My mother and I visited four different countries: Italy, Switzerland, France, and Spain. The list below is in no particular order, but these cities are my favorite locations from the trip. All of these photos were taken by me.</p>
   <div class="row">
     {% for vacation in cities.cities %}
-      <div class="col-sm-2">
+      <div class="col">
         <img src="img/{{ vacation.img }}" alt=" Photo of {{ vacation.Name }}" class="img-fluid">
         <h2><a href="cities/{{ vacation.slug }}.html">{{ vacation.Name }}</a></h2>
         <p>{{ vacation.Country }} | Population: {{ vacation.Population }}</p>

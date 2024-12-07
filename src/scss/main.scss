@@ -21,7 +21,26 @@
 // Import partials
 @import 'nav';
 
-h2 {
-  font-size: 1.25rem;
+h1{
+  font-family: "Times New Roman", Times, serif;
 }
 
+h2 {
+  font-size: 1.25rem;
+  font-family: "Times New Roman", Times, serif;
+}
+
+p {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.custom-navbar {
+  background-color: #BF5700;
+}
+
+a {
+  color: #BF5700;
+}
+a:hover {
+  color: #d16202; 
+}
