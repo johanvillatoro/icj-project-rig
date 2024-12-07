@@ -1,93 +1,134 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <!-- A Intro to Coding for Journalists class project -->
   <head>
     <title>2024 ICJ Final Project</title>
-    <meta name="description" content="The index search description for this page goes here.">
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/main.css">
+    <meta
+      name="description"
+      content="The index search description for this page goes here."
+    />
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/main.css" />
   </head>
   <body>
     <nav class="navbar navbar-expand-lg custom-navbar" data-bs-theme="dark">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="index.html">Vacation</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-      <ul class="navbar-nav">
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Cities
-          </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            
-            <li><a class="dropdown-item" href="cities/paris.html">Paris</a></li>
-            
-            <li><a class="dropdown-item" href="cities/san maurizio d&#39;opaglio.html">San Maurizio d&#39;Opaglio</a></li>
-            
-            <li><a class="dropdown-item" href="cities/rome.html">Rome</a></li>
-            
-            <li><a class="dropdown-item" href="cities/zurich.html">Zurich</a></li>
-            
-            <li><a class="dropdown-item" href="cities/madrid.html">Madrid</a></li>
-            
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Vacation</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle custom-dropdown"
+                href="#"
+                id="navbarDropdownMenuLink"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Cities
+              </a>
+              <ul
+                class="dropdown-menu"
+                aria-labelledby="navbarDropdownMenuLink"
+              >
+                <li>
+                  <a class="dropdown-item" href="cities/paris.html">Paris</a>
+                </li>
+
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="cities/san maurizio d&#39;opaglio.html"
+                    >San Maurizio d&#39;Opaglio</a
+                  >
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="cities/rome.html">Rome</a>
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="cities/zurich.html">Zurich</a>
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="cities/madrid.html">Madrid</a>
+                </li>
+              </ul>
+            </li>
           </ul>
-        </li>
-      </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <h1>Johan's Favorite Vacation Spots</h1>
+      <p>
+        When I was 16 years old, I went on a trip around Europe. My mother and I
+        visited four different countries: Italy, Switzerland, France, and Spain.
+        The list below is in no particular order, but these cities are my
+        favorite locations from the trip. All of these photos were taken by me.
+      </p>
+      <div class="row">
+        <div class="col">
+          <img src="img/paris.jpg" alt=" Photo of Paris" class="img-fluid" />
+          <h2><a href="cities/paris.html">Paris</a></h2>
+          <p>France | Population: 2103000</p>
+        </div>
+
+        <div class="col">
+          <img
+            src="img/san maurizio d&#39;opaglio.jpg"
+            alt=" Photo of San Maurizio d&#39;Opaglio"
+            class="img-fluid"
+          />
+          <h2>
+            <a href="cities/san maurizio d&#39;opaglio.html"
+              >San Maurizio d&#39;Opaglio</a
+            >
+          </h2>
+          <p>Italy | Population: 984386</p>
+        </div>
+
+        <div class="col">
+          <img src="img/rome.jpg" alt=" Photo of Rome" class="img-fluid" />
+          <h2><a href="cities/rome.html">Rome</a></h2>
+          <p>Itaty | Population: 2760000</p>
+        </div>
+
+        <div class="col">
+          <img src="img/zurich.jpg" alt=" Photo of Zurich" class="img-fluid" />
+          <h2><a href="cities/zurich.html">Zurich</a></h2>
+          <p>Switzerland | Population: 423193</p>
+        </div>
+
+        <div class="col">
+          <img src="img/madrid.jpg" alt=" Photo of Madrid" class="img-fluid" />
+          <h2><a href="cities/madrid.html">Madrid</a></h2>
+          <p>Spain | Population: 3277000</p>
+        </div>
+      </div>
     </div>
-  </div>
-</nav>
-
-    
-<div class="container">
-  <h1>Johan's Favorite Vacation Spots</h1>
-  <p>When I was 16 years old, I went on a trip around Europe. My mother and I visited four different countries: Italy, Switzerland, France, and Spain. The list below is in no particular order, but these cities are my favorite locations from the trip. All of these photos were taken by me.</p>
-  <div class="row">
-    
-      <div class="col">
-        <img src="img/paris.jpg" alt=" Photo of Paris" class="img-fluid">
-        <h2><a href="cities/paris.html">Paris</a></h2>
-        <p>France | Population: 2103000</p>
-      </div>
-    
-      <div class="col">
-        <img src="img/san maurizio d&#39;opaglio.jpg" alt=" Photo of San Maurizio d&#39;Opaglio" class="img-fluid">
-        <h2><a href="cities/san maurizio d&#39;opaglio.html">San Maurizio d&#39;Opaglio</a></h2>
-        <p>Italy  | Population: 984386</p>
-      </div>
-    
-      <div class="col">
-        <img src="img/rome.jpg" alt=" Photo of Rome" class="img-fluid">
-        <h2><a href="cities/rome.html">Rome</a></h2>
-        <p>Itaty | Population: 2760000</p>
-      </div>
-    
-      <div class="col">
-        <img src="img/zurich.jpg" alt=" Photo of Zurich" class="img-fluid">
-        <h2><a href="cities/zurich.html">Zurich</a></h2>
-        <p>Switzerland  | Population: 423193</p>
-      </div>
-    
-      <div class="col">
-        <img src="img/madrid.jpg" alt=" Photo of Madrid" class="img-fluid">
-        <h2><a href="cities/madrid.html">Madrid</a></h2>
-        <p>Spain | Population: 3277000</p>
-      </div>
-    
-  </div>
-</div>
-
 
     <footer>
-<p id="legal" class="center-block text-center">
-  <small>&copy;</small> <span class="copyright-year"></span>
-  A class project by Johan Villatoro.
-</p>
-</footer>
-
+      <p id="legal" class="center-block text-center">
+        <small>&copy;</small> <span class="copyright-year"></span>
+        A class project by Johan Villatoro.
+      </p>
+    </footer>
 
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
